@@ -10,13 +10,15 @@ Tested on (this list is updated during testing):
 
 ## Base environment
 
-Contains groups of:
+### 1. Base system
 
-* Standard utilities
-* Base X System
-* GNOME Desktop
-* Fonts
-* NetworkManager
+Contains package groups of:
+
+* :checkered_flag: Standard utilities
+* :checkered_flag: Base X System
+* :checkered_flag: GNOME Desktop
+* :checkered_flag: Fonts
+* :checkered_flag: NetworkManager
 
 ```bash
 sudo dnf install -y @standard @base-x @networkmanager-submodules @gnome-desktop @fonts
@@ -28,9 +30,9 @@ You can activate graphical login by command:
 sudo systemctl set-default graphical.target
 ```
 
-### GNOME Tweaks and tools
+### 2. GNOME Tweaks and tools
 
-Base Gnome tweak tool:
+* :wrench: Base Gnome tweak tool:
 
 ```bash
 sudo dnf install -y gnome-tweak-tool
@@ -41,7 +43,7 @@ I use the following extensions:
 * [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 * [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 
-### Additional fonts
+### 3. Additional fonts
 
 * :pencil: Google Croscore Fonts
 * :pencil: Google Noto Sans Fonts
@@ -51,7 +53,7 @@ I use the following extensions:
 sudo dnf install -y google-croscore-* google-noto-sans-fonts liberation-fonts
 ```
 
-### Themes and customization
+### 4. Themes and customization
 
 * :art: Flat Remix theme
 * :art: Papirus icon theme
@@ -62,7 +64,7 @@ sudo dnf install -y google-croscore-* google-noto-sans-fonts liberation-fonts
 sudo dnf install -y flat-remix-theme papirus-icon-theme breeze-cursor-theme
 ```
 
-### PulseAudio
+### 5. PulseAudio
 
 * :sound: pulseaudio
 * :sound: pulseaudio-utils
@@ -72,13 +74,15 @@ sudo dnf install -y flat-remix-theme papirus-icon-theme breeze-cursor-theme
 sudo dnf install -y pulseaudio pulseaudio-utils pulseaudio-module-x11
 ```
 
-## Additional useful console tools
+## 6. Additional useful console tools
+
+* :hammer_and_wrench: Some programs that I use to work:
 
 ```bash
 sudo dnf install -y aria2 htop neovim ranger tmux
 ```
 
-## Development
+## 7. Development
 
 :wrench: **Base Development tools**
 
@@ -93,6 +97,8 @@ sudo dnf install -y python3 python3-pip python3-devel python3-tkinter
 ```
 
 ## Preferred desktop software
+
+Most likely for this you need to [enabling the RPM Fusion repositories](https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/).
 
 | Software                             | Repo                                                                                  |
 | :----------------------------------- | :------------------------------------------------------------------------------------ |
