@@ -58,7 +58,6 @@ sudo dnf install -y google-croscore-* google-noto-sans-fonts liberation-fonts
 * :art: Flat Remix theme
 * :art: Papirus icon theme
 * :art: Breeze cursor theme
-* :art: Fedora 31 Backgrounds
 
 ```bash
 sudo dnf install -y flat-remix-theme papirus-icon-theme breeze-cursor-theme
@@ -84,13 +83,13 @@ sudo dnf install -y aria2 htop neovim ranger tmux
 
 ## 7. Development
 
-:wrench: **Base Development tools**
+* :wrench: **Base Development tools**
 
 ```bash
 sudo dnf install -y @development-tools
 ```
 
-:wrench: **Python 3**
+* :wrench: **Python 3**
 
 ```bash
 sudo dnf install -y python3 python3-pip python3-devel python3-tkinter
