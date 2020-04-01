@@ -1,5 +1,7 @@
 # Fedora: Desktop from Netinstall ISO image
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 My version of a Fedora desktop installation from minimal ISO image.
 
 You can download ISO file from [Fedora: Netinstall ISO image for x86_64](https://getfedora.org/ru/server/download/).
