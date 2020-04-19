@@ -57,12 +57,12 @@ sudo dnf install -y google-croscore-* google-noto-sans-fonts liberation-fonts
 
 ### 4. Themes and customization
 
-* :art: Flat Remix theme
-* :art: Papirus icon theme
+* :art: Numix Gtk Theme
+* :art: Numix Project circle icon theme
 * :art: Breeze cursor theme
 
 ```bash
-sudo dnf install -y flat-remix-theme papirus-icon-theme breeze-cursor-theme
+sudo dnf install -y numix-gtk-theme numix-icon-theme-circle breeze-cursor-theme
 ```
 
 ### 5. PulseAudio
