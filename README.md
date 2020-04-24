@@ -1,5 +1,6 @@
 # Fedora: Desktop from Netinstall ISO image
 
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-2d2d2d.svg)](http://commonmark.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 My version of a Fedora desktop installation from minimal ISO image.
