@@ -111,3 +111,7 @@ Most likely for this you need to [enabling the RPM Fusion repositories](https://
 | :file_folder: Transmission GTK       | Fedora repo - [transmission-gtk](https://pkgs.org/download/transmission-gtk)          |
 | :movie_camera: MPV                   | RPM Fusion Free repo - [mpv](https://pkgs.org/download/mpv)                           |
 | :speech_balloon: Telegram            | RPM Fusion Free repo - [telegram-desktop](https://pkgs.org/download/telegram-desktop) |
+
+## License
+
+This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license (see [LICENSE](<https://github.com/zsxoff/fedora-desktop/blob/master/LICENSE>) file).
