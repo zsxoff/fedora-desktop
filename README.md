@@ -41,10 +41,16 @@ sudo systemctl set-default graphical.target
 sudo dnf install -y gnome-tweak-tool
 ```
 
-I use the following extensions:
+Some useful extensions:
 
+* [Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/)
 * [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+* [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+* [Freon](https://extensions.gnome.org/extension/841/freon/)
+* [Remove Dropdown Arrows](https://extensions.gnome.org/extension/800/remove-dropdown-arrows/)
 * [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+* [Switcher](https://extensions.gnome.org/extension/973/switcher/)
+* [Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
 
 ### 3. Additional fonts
 
