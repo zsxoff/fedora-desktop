@@ -73,10 +73,9 @@ sudo dnf install -y numix-gtk-theme numix-icon-theme-circle breeze-cursor-theme
 
 * :pencil: Google Croscore Fonts
 * :pencil: Google Noto Sans Fonts
-* :pencil: Liberation Fonts
 
 ```bash
-sudo dnf install -y google-croscore-* google-noto-sans-fonts liberation-fonts
+sudo dnf install -y google-croscore-* google-noto-sans-fonts
 ```
 
 ### 4. PulseAudio
