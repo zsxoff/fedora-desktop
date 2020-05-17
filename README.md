@@ -40,7 +40,7 @@ You can activate graphical login by command:
 sudo systemctl set-default graphical.target
 ```
 
-### 2. GNOME Tweaks and tools
+### 2. GNOME Tweaks and Themes
 
 * :wrench: Base Gnome tweak tool:
 
@@ -59,6 +59,16 @@ Some useful extensions:
 * [Switcher](https://extensions.gnome.org/extension/973/switcher/)
 * [Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
 
+I used this GTK themes and customization:
+
+* :art: Numix Gtk Theme
+* :art: Numix Project circle icon theme
+* :art: Breeze cursor theme
+
+```bash
+sudo dnf install -y numix-gtk-theme numix-icon-theme-circle breeze-cursor-theme
+```
+
 ### 3. Additional fonts
 
 * :pencil: Google Croscore Fonts
@@ -69,17 +79,7 @@ Some useful extensions:
 sudo dnf install -y google-croscore-* google-noto-sans-fonts liberation-fonts
 ```
 
-### 4. Themes and customization
-
-* :art: Numix Gtk Theme
-* :art: Numix Project circle icon theme
-* :art: Breeze cursor theme
-
-```bash
-sudo dnf install -y numix-gtk-theme numix-icon-theme-circle breeze-cursor-theme
-```
-
-### 5. PulseAudio
+### 4. PulseAudio
 
 * :sound: pulseaudio
 * :sound: pulseaudio-utils
@@ -89,7 +89,7 @@ sudo dnf install -y numix-gtk-theme numix-icon-theme-circle breeze-cursor-theme
 sudo dnf install -y pulseaudio pulseaudio-utils pulseaudio-module-x11
 ```
 
-## 6. Additional useful console tools
+## 5. Additional useful console tools
 
 * :hammer_and_wrench: Some programs that I use to work:
 
@@ -97,7 +97,7 @@ sudo dnf install -y pulseaudio pulseaudio-utils pulseaudio-module-x11
 sudo dnf install -y aria2 htop neovim ranger tmux
 ```
 
-## 7. Development
+## 6. Development
 
 * :wrench: **Base Development tools**
 
