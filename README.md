@@ -17,14 +17,21 @@ Tested on (this list is updated during testing):
 
 Contains package groups of:
 
-* :checkered_flag: Standard utilities
 * :checkered_flag: Base X System
-* :checkered_flag: GNOME Desktop
 * :checkered_flag: Fonts
-* :checkered_flag: NetworkManager
+* :checkered_flag: GNOME Desktop
+* :checkered_flag: Hardware Support
+* :checkered_flag: Common NetworkManager Submodules
+* :checkered_flag: Standard Utilities
 
 ```bash
-sudo dnf install -y @standard @base-x @networkmanager-submodules @gnome-desktop @fonts
+sudo dnf install -y \
+    @base-x \
+    @fonts \
+    @gnome-desktop \
+    @hardware-support \
+    @networkmanager-submodules \
+    @standard
 ```
 
 You can activate graphical login by command:
