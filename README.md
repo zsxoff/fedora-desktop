@@ -65,10 +65,6 @@ I used this GTK themes and customization:
 * :art: [Numix Icon Theme Square](https://github.com/numixproject/numix-icon-theme-square)
 * :art: [Vimix Cursors](https://github.com/vinceliuice/Vimix-cursors)
 
-```bash
-sudo dnf install -y numix-gtk-theme numix-icon-theme-circle breeze-cursor-theme
-```
-
 ### 3. Additional fonts
 
 * :pencil: Google Croscore Fonts
