@@ -1,7 +1,12 @@
 # Fedora: Desktop from Netinstall ISO image
 
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-2d2d2d.svg)](http://commonmark.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+> Simple desktop configuration for netinstall version of Fedora Linux.
+
+---
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-2d2d2d.svg?style=flat-square)](http://commonmark.org)
+
+---
 
 My version of a Fedora desktop installation from minimal ISO image.
 
@@ -122,5 +127,7 @@ Most likely for this you need to [enabling the RPM Fusion repositories](https://
 | :speech_balloon: Telegram            | RPM Fusion Free repo - [telegram-desktop](https://pkgs.org/download/telegram-desktop) |
 
 ## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license (see [LICENSE](<https://github.com/zsxoff/fedora-desktop/blob/master/LICENSE>) file).
