@@ -55,20 +55,21 @@ sudo dnf install -y gnome-tweak-tool
 
 Some useful extensions:
 
-* [Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/)
-* [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
-* [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-* [Freon](https://extensions.gnome.org/extension/841/freon/)
-* [Remove Dropdown Arrows](https://extensions.gnome.org/extension/800/remove-dropdown-arrows/)
-* [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
-* [Switcher](https://extensions.gnome.org/extension/973/switcher/)
-* [Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+* :wrench: [Arc Menu](https://extensions.gnome.org/extension/1228/arc-menu/)
+* :wrench: [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+* :wrench: [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+* :wrench: [Freon](https://extensions.gnome.org/extension/841/freon/)
+* :wrench: [Remove Dropdown Arrows](https://extensions.gnome.org/extension/800/remove-dropdown-arrows/)
+* :wrench: [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+* :wrench: [Switcher](https://extensions.gnome.org/extension/973/switcher/)
+* :wrench: [Tweaks in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
 
 I used this GTK themes and customization:
 
-* :art: [Orchis Theme](https://github.com/vinceliuice/Orchis-theme)
-* :art: [Numix Icon Theme Square](https://github.com/numixproject/numix-icon-theme-square)
-* :art: [Vimix Cursors](https://github.com/vinceliuice/Vimix-cursors)
+* :art: Applications: [Orchis Theme](https://github.com/vinceliuice/Orchis-theme)
+* :art: Cursor: [Vimix Cursors](https://github.com/vinceliuice/Vimix-cursors)
+* :art: Icons: [Numix Icon Theme Square](https://github.com/numixproject/numix-icon-theme-square)
+* :art: Shell: [Materia Theme](https://github.com/nana-4/materia-theme)
 
 ### 3. Additional fonts
 
