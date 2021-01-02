@@ -14,29 +14,23 @@ You can download ISO file from [Fedora: Netinstall ISO image for x86_64](https:/
 
 Tested on (this list is updated during testing):
 
+* Fedora 33 Netinstall
+* Fedora 32 Netinstall
 * Fedora 31 Netinstall
 
-## Base environment
+---
 
-### 1. Base system
+## Base system
 
 Contains package groups of:
 
 * :checkered_flag: Base X System
-* :checkered_flag: Fonts
-* :checkered_flag: GNOME Desktop
 * :checkered_flag: Hardware Support
 * :checkered_flag: Common NetworkManager Submodules
 * :checkered_flag: Standard Utilities
 
 ```bash
-sudo dnf install -y \
-    @base-x \
-    @fonts \
-    @gnome-desktop \
-    @hardware-support \
-    @networkmanager-submodules \
-    @standard
+sudo dnf install -y @base-x @hardware-support @networkmanager-submodules @standard
 ```
 
 You can activate graphical login by command:
@@ -45,7 +39,20 @@ You can activate graphical login by command:
 sudo systemctl set-default graphical.target
 ```
 
-### 2. GNOME Tweaks and Themes
+## GNOME
+
+### GNOME Desktop
+
+Contains package groups of:
+
+* :checkered_flag: GNOME Desktop
+* :checkered_flag: Fonts
+
+```bash
+sudo dnf install -y @gnome-desktop @fonts
+```
+
+### GNOME Tweaks and Themes
 
 * :wrench: Base Gnome tweak tool:
 
@@ -71,7 +78,7 @@ I used this GTK themes and customization:
 * :art: Icons: [Numix Icon Theme Square](https://github.com/numixproject/numix-icon-theme-square)
 * :art: Shell: [Materia Theme](https://github.com/nana-4/materia-theme)
 
-### 3. Additional fonts
+## Additional fonts
 
 * :pencil: Google Croscore Fonts
 * :pencil: Google Noto Sans Fonts
@@ -80,25 +87,15 @@ I used this GTK themes and customization:
 sudo dnf install -y google-croscore-* google-noto-sans-fonts
 ```
 
-### 4. PulseAudio
-
-* :sound: pulseaudio
-* :sound: pulseaudio-utils
-* :sound: pulseaudio-module-x11
-
-```bash
-sudo dnf install -y pulseaudio pulseaudio-utils pulseaudio-module-x11
-```
-
-## 5. Additional useful console tools
+## Additional useful console tools
 
 * :hammer_and_wrench: Some programs that I use to work:
 
 ```bash
-sudo dnf install -y aria2 htop neovim ranger tmux
+sudo dnf install -y bat bpytop htop neovim tmux wget
 ```
 
-## 6. Development
+## Development
 
 * :wrench: **Base Development tools**
 
