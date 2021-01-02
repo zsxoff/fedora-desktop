@@ -33,12 +33,6 @@ Contains package groups of:
 sudo dnf install -y @base-x @hardware-support @networkmanager-submodules @standard
 ```
 
-You can activate graphical login by command:
-
-```bash
-sudo systemctl set-default graphical.target
-```
-
 ## GNOME
 
 ### GNOME Desktop
@@ -50,6 +44,12 @@ Contains package groups of:
 
 ```bash
 sudo dnf install -y @gnome-desktop @fonts
+```
+
+You can activate graphical login by command:
+
+```bash
+sudo systemctl set-default graphical.target
 ```
 
 ### GNOME Tweaks and Themes
