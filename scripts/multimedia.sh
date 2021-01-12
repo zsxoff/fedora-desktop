@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo dnf install -y \
-    exiftool \
     ffmpeg \
     ffmpeg-libs \
     ffmpegthumbnailer \
@@ -26,6 +25,7 @@ sudo dnf install -y \
     libmpeg2 \
     libvorbis \
     mediainfo \
+    perl-Image-ExifTool \
     speex \
     wavpack \
     x264 \
