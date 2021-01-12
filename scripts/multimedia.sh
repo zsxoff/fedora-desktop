@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo dnf install -y \
+    exiv2 \
     ffmpeg \
     ffmpeg-libs \
     ffmpegthumbnailer \
